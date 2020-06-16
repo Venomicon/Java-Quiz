@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Result</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div id="end" class="flex-center flex-column">
+			<h1>Your score</h1>
+			<h1 id="finalScore">0</h1>
+			<form>
+				<input type="text" name="username" id="username" placeholder="Username">
+				<button type="submit" class="btn btn-bg" id="saveScoreBtn" 
+						onclick="saveHighScore(event)" disabled>Save score</button>
+			</form>
+			<div class="flex-row">
+				<a href="game.html" class="btn btn-sm">Play Again</a>
+				<a href="index.html" class="btn btn-sm">Home</a>
+			</div>
+		</div>		
+	</div>
+
+	<script type="text/javascript" src="end.js"></script>
+</body>
+</html>
